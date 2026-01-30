@@ -1,0 +1,90 @@
+:root {
+  --saturated-colour: #39561f;
+  --lighter-colour: #7d877368;
+  --box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+body {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+a {
+  color: var(--saturated-colour);
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px auto;
+}
+
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 24px;
+  opacity: 0.6;
+}
+
+h3 {
+  font-weight: 200;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 42px;
+}
+
+button {
+  box-shadow: var(--box-shadow);
+  padding: 20px 35px;
+  border-radius: 7px;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.buttons {
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-button {
+  background-color: var(--saturated-colour);
+  color: #fff;
+  border: solid var(--saturated-colour);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-button {
+  background-color: #fff;
+  color: var(--saturadted-colour);
+  border: solid var(--saturated-colour);
+  text-decoration: none;
+  font-weight: bold;
+}
+.descriptions {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.descriptions div {
+  max-width: 300px;
+  padding: 10px 15px;
+  border-radius: 7px;
+  background: var(--lighter-colour);
+}
+.contact {
+  font-size: 50px;
+}
+.email-link {
+  text-decoration: none;
+}
